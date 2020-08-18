@@ -15,7 +15,7 @@ public class Main {
 
         for (int gap = arr.length/2; gap > 0; gap/=2){
 
-            for (int i = gap; i < arr.length; i++){
+            for (int i = gap; i < arr.length; i++) {
                 int newElement = arr[i];
 
                 int j = i;
